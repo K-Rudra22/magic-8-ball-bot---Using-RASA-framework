@@ -1,0 +1,31 @@
+# nlu.yml
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi there
+    - yo
+    - what's up
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - catch you later
+
+- intent: ask_8ball
+  examples: |
+    - will I pass my exam?
+    - should I go out today?
+    - is it going to rain?
+    - am I lucky today?
+    - should I take the job?
+    - will I win the lottery?
+    - can I trust him?
+    - will it work?
+    - will I get good marks?
+    - is tomorrow a good day?

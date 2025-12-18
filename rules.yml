@@ -1,0 +1,18 @@
+# rules.yml
+version: "3.1"
+
+rules:
+- rule: Greet rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: 8-ball response rule
+  steps:
+  - intent: ask_8ball
+  - action: action_magic_8ball
+
+- rule: Goodbye rule
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

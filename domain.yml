@@ -1,0 +1,18 @@
+# domain.yml
+version: "3.1"
+
+intents:
+  - ask_8ball
+  - greet
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hey there! I'm your Magic 8-Ball 🎱. Ask me any yes/no question!"
+  utter_goodbye:
+    - text: "Goodbye! Hope my wisdom helps 😄"
+  utter_default:
+    - text: "Hmm... I didn't quite catch that. Ask me a yes/no question!"
+
+actions:
+  - action_magic_8ball
