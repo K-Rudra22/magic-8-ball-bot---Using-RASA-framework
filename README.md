@@ -1,5 +1,3 @@
-# magic-8-ball-bot---Using-RASA-framework
-
 # 🎱 Magic 8-Ball Chatbot (Rasa Framework)
 
 ##  Project Overview
